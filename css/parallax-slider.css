@@ -1,0 +1,478 @@
+.parallax-slider { height:556px; }
+@media (min-width: 768px) and (max-width: 979px) {
+    .parallax-slider { height:450px; }
+}
+@media (max-width: 767px) {
+    .parallax-slider { height:300px; }
+}
+.parallax-slider #mainCaptionHolder .container { top:41.5%; }
+@media (min-width: 980px) and (max-width: 1200px) {
+    .parallax-slider #mainCaptionHolder .container { top:38%; }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .parallax-slider #mainCaptionHolder .container { top:40%; }
+}
+@media (max-width: 767px) {
+    .parallax-slider #mainCaptionHolder .container { top:10%; }
+}
+.parallax-slider #mainCaptionHolder .slider_caption {
+    background:none;
+    padding:0 0 0 469px;
+    line-height:59px;
+    font-family:'Raleway', sans-serif;
+    font-size:49px;
+    font-weight:700;
+    color:#fff;
+}
+@media (min-width: 980px) and (max-width: 1200px) {
+    .parallax-slider #mainCaptionHolder .slider_caption {
+        padding:0 100px;
+        text-align:center;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .parallax-slider #mainCaptionHolder .slider_caption {
+        padding:0 100px;
+        line-height:49px;
+        font-size:39px;
+        text-align:center;
+    }
+}
+@media (max-width: 767px) {
+    .parallax-slider #mainCaptionHolder .slider_caption {
+        padding:0 100px;
+        line-height:39px;
+        font-size:29px;
+        text-align:center;
+    }
+}
+@media (max-width: 480px) {
+    .parallax-slider #mainCaptionHolder .slider_caption {
+        padding:0;
+        line-height:29px;
+        font-size:19px;
+    }
+}
+.parallax-slider #mainCaptionHolder .slider_caption a {
+    text-decoration:none;
+    color:#fff;
+}
+.parallax-slider #mainCaptionHolder .slider_caption a:focus {
+    text-decoration:none;
+    color:#fff;
+}
+.parallax-slider #mainCaptionHolder .slider_caption a:hover {
+    text-decoration:none;
+    color:#fe8f01;
+}
+.parallax-slider .controlBtn .slidesCounter {
+    display:none;
+    font-size:16px;
+    line-height:55px;
+    color:#fff;
+    background:#9b9b9b;
+}
+.parallax-slider .parallaxPrevBtn {
+    background:rgba(255,255,255,0.33);
+    width:69px;
+    height:69px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-37px 0 0 -930px;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -o-transition:0.8s;
+    transition:0.8s;
+}
+@media (min-width: 1201px) and (max-width: 1865px) {
+    .parallax-slider .parallaxPrevBtn { margin-left:-585px; }
+}
+@media (min-width: 980px) and (max-width: 1200px) {
+    .parallax-slider .parallaxPrevBtn { margin-left:-470px; }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .parallax-slider .parallaxPrevBtn { margin-left:-362px; }
+}
+@media (max-width: 767px) {
+    .parallax-slider .parallaxPrevBtn {
+        top:auto !important;
+        bottom:40px !important;
+        margin:0 0 0 -70px !important;
+    }
+}
+.parallax-slider .parallaxPrevBtn:focus {
+    background:rgba(255,255,255,0.33);
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+}
+.parallax-slider .parallaxPrevBtn:focus:before {
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+    color:#333;
+}
+.parallax-slider .parallaxPrevBtn:hover {
+    background:#fe8f01;
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+}
+.parallax-slider .parallaxPrevBtn:hover:before {
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+    color:#fff;
+}
+.parallax-slider .parallaxPrevBtn:before {
+    display:block;
+    padding:0 5px 0 0;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -o-transition:0.8s;
+    transition:0.8s;
+    line-height:69px;
+    font-family:FontAwesome;
+    font-size:65px;
+    text-align:center;
+    color:#333;
+    content:'\f104';
+}
+.parallax-slider .parallaxPrevBtn .innerBtn { display:none !important; }
+.parallax-slider .parallaxNextBtn {
+    background:rgba(255,255,255,0.33);
+    width:69px;
+    height:69px;
+    position:absolute;
+    top:50%;
+    right:50%;
+    margin:-37px -930px 0 0;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -o-transition:0.8s;
+    transition:0.8s;
+}
+@media (min-width: 1201px) and (max-width: 1865px) {
+    .parallax-slider .parallaxNextBtn {
+        right:auto;
+        left:50%;
+        margin:-37px 0 0 -514px;
+    }
+}
+@media (min-width: 980px) and (max-width: 1200px) {
+    .parallax-slider .parallaxNextBtn { margin-right:-470px; }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .parallax-slider .parallaxNextBtn { margin-right:-362px; }
+}
+@media (max-width: 767px) {
+    .parallax-slider .parallaxNextBtn {
+        top:auto !important;
+        bottom:40px !important;
+        margin:0 -70px 0 0 !important;
+    }
+}
+.parallax-slider .parallaxNextBtn:focus {
+    background:rgba(255,255,255,0.33);
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+}
+.parallax-slider .parallaxNextBtn:focus:before {
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+    color:#333;
+}
+.parallax-slider .parallaxNextBtn:hover {
+    background:#fe8f01;
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+}
+.parallax-slider .parallaxNextBtn:hover:before {
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s;
+    color:#fff;
+}
+.parallax-slider .parallaxNextBtn:before {
+    display:block;
+    padding:0 0 0 5px;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -o-transition:0.8s;
+    transition:0.8s;
+    line-height:69px;
+    font-family:FontAwesome;
+    font-size:65px;
+    text-align:center;
+    color:#333;
+    content:'\f105';
+}
+.parallax-slider .parallaxNextBtn .innerBtn { display:none !important; }
+.parallax-slider #paralaxSliderPagination {
+    padding:10px 0;
+    bottom:0px;
+}
+.parallax-slider #paralaxSliderPagination.buttons_pagination ul li {
+    border-radius:50%;
+    margin:3px;
+    width:15px;
+    height:15px;
+    border:2px solid #fff;
+}
+.parallax-slider #paralaxSliderPagination.buttons_pagination ul li:hover, .parallax-slider #paralaxSliderPagination.buttons_pagination ul li.active { background:#9b9b9b; }
+.parallax-slider #paralaxSliderPagination.images_pagination ul li {
+    margin:3px;
+    opacity:.5;
+}
+.parallax-slider {
+    overflow:hidden;
+    position:relative;
+    -ms-transform:translateZ(0);
+    transform:translateZ(0);
+}
+.parallax-slider .baseList { display:none; }
+.parallax-slider .parallax-slider-video-progress-bar {
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    width:100%;
+    height:8px;
+    background:url(parallax-slider/img/loader.gif) 0 0 repeat-x;
+    z-index:5;
+}
+.parallax-slider .parallax-slider-video-progress {
+    width:0;
+    height:100%;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s;
+}
+.parallax-slider .parallax-slider-vimeo-video { overflow:hidden; }
+.parallax-slider .parallax-slider-vimeo-video .parallax-slider-vimeo-iframe {
+    margin-top:-100px;
+    max-width:none;
+}
+.parallax-slider #mainImageHolder {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.parallax-slider #mainImageHolder .primaryHolder, .parallax-slider #mainImageHolder .secondaryHolder {
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+}
+.parallax-slider #mainImageHolder .primaryHolder .obj-inner, .parallax-slider #mainImageHolder .secondaryHolder .obj-inner {
+    max-width:inherit;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.parallax-slider #mainCaptionHolder {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:2;
+}
+.parallax-slider #mainCaptionHolder >a {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.parallax-slider #mainCaptionHolder .container { position:relative; }
+.parallax-slider #mainCaptionHolder .primaryCaption, .parallax-slider #mainCaptionHolder .secondaryCaption {
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+}
+.parallax-slider .controlBtn {
+    position:absolute;
+    cursor:pointer;
+    display:block;
+    top:50%;
+    z-index:2;
+}
+.parallax-slider .controlBtn .innerBtn {
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+    position:relative;
+    display:block;
+    width:100%;
+    height:100%;
+    text-align:center;
+    z-index:1;
+}
+.parallax-slider .controlBtn .slidesCounter {
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+    position:absolute;
+    top:0;
+    width:60%;
+    height:100%;
+}
+.parallax-slider .controlBtn.parallaxPrevBtn .slidesCounter {
+    left:0%;
+    text-align:left;
+}
+.parallax-slider .controlBtn.parallaxPrevBtn:hover .slidesCounter { left:100%; }
+.parallax-slider .controlBtn.parallaxNextBtn .slidesCounter {
+    right:0%;
+    text-align:right;
+}
+.parallax-slider .controlBtn.parallaxNextBtn:hover .slidesCounter { right:100%; }
+.parallax-slider #paralaxSliderPagination {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    z-index:2;
+}
+.parallax-slider #paralaxSliderPagination ul {
+    list-style:none;
+    margin:0;
+}
+.parallax-slider #paralaxSliderPagination ul li {
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+    cursor:pointer;
+    display:inline-block;
+}
+.parallax-slider #previewSpinner {
+    position:absolute;
+    display:block;
+    top:50%;
+    left:50%;
+    z-index:99;
+}
+.parallax-slider.zoom-fade-eff #mainImageHolder .primaryHolder {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+}
+.parallax-slider.zoom-fade-eff #mainImageHolder .primaryHolder.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transform:scale(3);
+    -moz-transform:scale(3);
+    -ms-transform:scale(3);
+    -o-transform:scale(3);
+    transform:scale(3);
+}
+.parallax-slider.zoom-fade-eff #mainImageHolder .secondaryHolder {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.parallax-slider.zoom-fade-eff #mainImageHolder .secondaryHolder.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.zoom-fade-eff #mainCaptionHolder .primaryCaption {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.parallax-slider.zoom-fade-eff #mainCaptionHolder .primaryCaption.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.zoom-fade-eff #mainCaptionHolder .secondaryCaption {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.parallax-slider.zoom-fade-eff #mainCaptionHolder .secondaryCaption.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.simple-fade-eff #mainImageHolder .primaryHolder {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.parallax-slider.simple-fade-eff #mainImageHolder .primaryHolder.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.simple-fade-eff #mainImageHolder .secondaryHolder.animateState {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.parallax-slider.simple-fade-eff #mainImageHolder .secondaryHolder.animateState.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.simple-fade-eff #mainCaptionHolder .primaryCaption {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+}
+.parallax-slider.simple-fade-eff #mainCaptionHolder .primaryCaption.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.simple-fade-eff #mainCaptionHolder .secondaryCaption {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.parallax-slider.simple-fade-eff #mainCaptionHolder .secondaryCaption.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.slide-top-eff #mainImageHolder .primaryHolder { top:0; }
+.parallax-slider.slide-top-eff #mainImageHolder .primaryHolder.animateState { top:-100%; }
+.parallax-slider.slide-top-eff #mainImageHolder .secondaryHolder.animateState { top:0; }
+.parallax-slider.slide-top-eff #mainImageHolder .secondaryHolder.animateState.animateState { top:100%; }
+.parallax-slider.slide-top-eff #mainCaptionHolder .primaryCaption {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+}
+.parallax-slider.slide-top-eff #mainCaptionHolder .primaryCaption.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.parallax-slider.slide-top-eff #mainCaptionHolder .secondaryCaption {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.parallax-slider #mainCaptionHolder .secondaryCaption.animateState {
+    opacity:0;
+    filter:alpha(opacity=0);
+}

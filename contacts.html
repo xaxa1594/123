@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Рамирез</title>
+
+  <link rel="stylesheet" href="font/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css">
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <!-- HEADER -->
+      <header class="header">
+        <section class="header-block-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-xs-1">
+                <nav class="header-nav">
+                  <ul class="header-nav__list active">
+                    <li class="header-nav__item">
+                      <a href="index.html" class="header-nav__link">Главная</a></li>
+                      <li class="header-nav__item"><a href="about.html" class="header-nav__link">О нас</a></li>
+                      <li class="header-nav__item"><a href="projects.html" class="header-nav__link">Проекты</a></li>
+                      <li class="header-nav__item"><a href="contacts.html" class="header-nav__link  header-nav__link--active">Контакты</a></li>
+                    </ul>
+                    <a class="toggle-nav" href="#">&#9776;</a>
+                  </nav>
+                </div>
+                <div class="col-md-3">
+                  <a href="en/contacts.html" class="btn-language">en</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="header-block-2">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-5 col-xs-12">
+                  <div class="header__header-logo">
+                    <a href="index.html" class="header-logo">
+                      <img src="img/logo.png" alt="Header logo">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-7 col-xs-12 poi">
+                  <div class="header-widget header-widget-1">
+                    <div>
+                      <h4>Location:</h4>
+                      <div class="textwidget">8901 Marmora Road Glasgow, DO4 89GR.</div>
+                    </div>
+                  </div>
+                  <div class="header-widget header-widget-2">
+                    <div>
+                      <h4>Phone:</h4>
+                      <div class="textwidget">+1 959 603 6035 (585-SUPPORT)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </header>
+
+        <main>
+          <div class="caption">
+            <div class="hr"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="title">contacts</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="breadcrumb">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="breadcrumb__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="divider"></li>
+                    <li class="active">Contacts</li></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contacts">
+              <div class="container">
+                <div class="overlay-contacts" onClick="style.pointerEvents='none'"></div>
+                <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2002.4448549104068!2d30.333630316209373!3d59.87496367419565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963008aa6a1033%3A0x8b936a507c605df9!2z0JvQtdC90JLQvtC00J_RgNC-0LXQutGC!5e0!3m2!1sru!2sru!4v1469455533653" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                <div class="col-md-4 contacts-info">
+                  <h5 class="title">contact info</h5>
+                  <p class="contacts-info__text1">sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                  <p class="contacts-info__text2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque la udantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                  <address class="contacts-info__address">
+                    <strong>The Company Name Inc.<br>
+                      9870 St Vincent Place,<br>
+                      Glasgow, DC 45 Fr 45.</strong><br>
+                      Telephone: +1 800 603 6035<br>
+                      FAX: +1 800 889 9898<br>
+                      E-mail: <a href="mailto:info@demolink.org">mail@demolink.org</a><br>
+                    </address>
+                  </div>
+                  <div class="col-md-8 contacts-form">
+                    <h5 class="title">contact form</h5>
+                    <form  action="">
+                    <input type="text" class="contacts-form__input" placeholder="Name:">
+                      <input type="text" class="contacts-form__input" placeholder="E-mail:">
+                      <input type="text" class="contacts-form__input" placeholder="Phone:">
+                      <textarea name="" id="" cols="40" rows="10" class="contacts-form__textarea" placeholder="Message:"></textarea>
+                      <input type="reset" value="clear" class="contacts-form__reset">
+                      <input type="submit" value="send" class="contacts-form__submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </main>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer__footer-logo col-md-12">
+                    <a href="index.html" class="footer-logo">
+                      <img src="img/footer_logo.png" alt="footer logo">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+            <!-- BACK TOP -->
+            <div id="scroller" class="b-top" style="display: none;">
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <script type='text/javascript' src='js/script.js'></script>
+          </body>
+          </html>
