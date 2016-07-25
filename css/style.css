@@ -1334,7 +1334,7 @@ body {
   font: normal 12px/15px Arial, Helvetica, sans-serif;
 }
 .contacts-form .title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .contacts-form__input {
   color: #3D3D3D;
@@ -1369,6 +1369,7 @@ body {
   background: #3D3D3D;
   height: 58px;
   margin-right: 15px;
+  margin-bottom: 10px;
   transition: 0.8s;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
