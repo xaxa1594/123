@@ -267,13 +267,17 @@
             background-image: url(../img/icon6.png);
         }
     }
-    .title {
-        font-size: 20px;
+    &__title {
         margin-bottom: 18px;
+        color: #3d3d3d;
+        line-height: 24px;
+        font-size: 20px;
+        font-weight: 400;
     }
     &__text {
         font-size: 12px;
         line-height: 18px;
+        color: #3d3d3d;
     }
 }
 
@@ -411,40 +415,6 @@
         margin-bottom: 10px;
     }
 }
-//  breadcrumb--------------------------------
-.breadcrumb {
-    background-image: @bg-light;
-    border-top: 1px solid @color-dark;
-    border-bottom: 1px solid @color-dark;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    ul li {
-        margin: 10px 0;
-        list-style: none;
-        line-height: 18px;
-        font-size: 12px;
-        text-shadow: none;
-        color: @color-dark;
-        display: inline-block;
-        a {
-            text-decoration: none;
-            color: @color-main2;
-            position: relative;
-            &:hover {
-                color: @color-dark;
-                transition: 0.8s;
-            }
-            &:after {
-                position: absolute;
-                line-height: 18px;
-                font-size: 12px;
-                color: @color-dark;
-                right: -6px;
-                content: '/';
-            }
-        }
-    }
-}
 
 // contacts block---------------------------------
 .contacts {
@@ -481,17 +451,17 @@
     }
     &-form {
         .title {
-            margin-bottom: 10px;
+            margin-bottom: 25px;
         }
         font: normal 12px/15px Arial,Helvetica,sans-serif;
         &__input {
             color: @color-main2;
-            border: 1px solid @color-dark;
+            border: 1px solid @color-dark2;
             padding: 20px;
             outline: none;
-            width: 227px;
+            width: 30%;
             height: 50px;
-            margin-left: 20px;
+            margin-left: 4.5%;
             margin-bottom: 20px;
             &:first-child {
                 margin-left: 0;
@@ -503,7 +473,7 @@
             line-height: 15px;
             margin-bottom: 10px;
             padding: 15px 17px;
-            border: 1px solid @color-dark;
+            border: 1px solid @color-dark2;
             resize: none;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 12px;
@@ -513,7 +483,7 @@
         }
         &__reset,
         &__submit {
-            width: 40%;
+            width: 20%;
             background: @color-main2;
             height: 58px;
             margin-right: 15px;
@@ -548,4 +518,241 @@
 }
 .overlay-contacts {
     .overlay (620px; 620px; -620px);
+}
+
+// abiut us-----------------
+.story {
+    margin-bottom: 40px;
+    .title {
+        margin: 40px 0;
+    }
+    &__photo {
+        float: left;
+        margin: 5px 30px 5px 0;
+        border: 3px solid rgba(0,0,0,0.1);
+        width: 364px;
+        height: 260px;
+    }
+    &__subtitle {
+        font: normal 20px/24px Raleway;
+        color: @color-main2;
+        margin: 0 0 17px 0;
+        text-transform: uppercase
+    }
+    &__text {
+        margin: 0 0 18px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        color: @color-main2;
+    }
+    &__btn{
+        margin-top: 15px;
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        padding: 14px 30px 15px 30px;
+        transition: 0.8s;
+        vertical-align: top;
+        line-height: 18px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        z-index: 2;
+        &:before {
+            transition: 0.8s;
+            background: @color-main1;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            content: '';
+        }
+        &:hover:before {
+            background: none;
+            transition: 0.4s;
+            color: #fff;
+            background: @color-main2;
+        }
+    }
+}
+
+// work-team
+.work-team {
+    margin-bottom: 70px;
+    .title {
+        margin-bottom: 40px;
+    }
+    &__img {
+        border: 3px solid rgba(0,0,0,0.1);
+        width: 270px;
+        height: 211px;
+        margin-bottom: 11px;
+    }
+    &__desc {
+        text-align: center;
+        font: normal 12px/18px Arial,Helvetica,sans-serif;
+        color: @color-main1;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+    &__text {
+        text-align: center;
+        font: normal 12px/18px Arial,Helvetica,sans-serif;
+        color: @color-main2;
+    }
+}
+
+.our-advantages {
+    margin-bottom: 40px;
+    .title{
+        margin: 70px 0 60px;
+    }
+    &-item {
+        &__img {
+            display: inline-block;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            border: 3px solid rgba(0,0,0,0.1);
+            position: absolute;
+            &:before{
+                background: @color-main1;
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                color: #fff;
+                text-align: center;
+                line-height: 52px;
+                font-size: 40px;
+            }
+            &--1:before {
+                content: '1';
+            }
+            &--2:before {
+                content: '2';
+            }
+            &--3:before {
+                content: '3';
+            }
+        }
+        .wrap{
+            margin-left: 25%;
+        }
+        &__title {
+            margin-bottom: 18px;
+            color: #3d3d3d;
+            line-height: 24px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        &__text {
+            font-size: 12px;
+            line-height: 18px;
+            color: #3d3d3d;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    }
+}
+
+// projects
+.projects {
+    margin: 50px -0px;
+    &-item{
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-sizing: content-box;
+        border: 3px solid rgba(0,0,0,0.2);
+        &__img{
+            width: 100%;
+        }
+    }
+    &-caption {
+        margin: 20px;
+        &__desc {
+            line-height: 20px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        &__text {
+            margin-top: 5px;
+            margin-bottom: 33px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        &__btn {
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            .btn(150px; 50px; 15px);
+            background-color: @color-main1;
+            text-transform: uppercase;
+            z-index: 2;
+            position: relative;
+            line-height: 55px;
+            &:before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 0;
+                background-color: @color-main2;
+                transition: 0.8s;
+                z-index: -1;
+            }
+            &:hover:before {
+                height:100%;
+            }
+        }
+    }
+}
+
+// progect item
+
+.project {
+    margin: 40px;
+    &__img{
+        background-color: #fff;
+        box-sizing: content-box;
+        border: 3px solid rgba(0,0,0,0.2);
+        width: 100%;
+    }
+    &-info {
+        &__caption {
+            padding: 10px 0;
+            .title();
+            border-top: 1px solid @color-dark2;
+        }
+        &__list{
+            padding: 10px 0;
+            text-align: left;
+            list-style-type: none;
+            border-top: 1px solid @color-dark2;
+            line-height: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        &__key {
+            padding-right: 5px;
+        }
+        &__text {
+            text-align: left;
+            border-top: 1px solid @color-dark2;
+            line-height: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            p {
+                padding-top: 10px;
+            }
+        }
+    }
 }
